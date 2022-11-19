@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    background: black;
+}
+
+.my-nav {
+    font-size: 0;
+    width: 100%;
+    height: 70px;
+    background-color: none;
+    position: fixed;
+    top: 0;
+    transition: 0.5s;
+}
+
+.my-nav:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    transition: 0.5s;
+}
+.Logotipo{
+    width: 50px;
+}
+
+.my-nav-sec img { vertical-align: top;}
+.my-nav-sec { width: 50%; display: inline-block;}
+.my-nav a { font-size: 14px; text-decoration: none;}
+.my-nav li {
+    display: inline-block;
+    list-style: none;
+    max-width: 20%;
+    padding: 10px;
+    margin: 0 10px;
+    color: white;
+    text-shadow: 10px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.my-nav li:hover {
+    background: gray;
+    color: white;
+    border-radius: 5px;
+}
+
+.my-info {
+    height: 100vh;
+    padding: 75px 0 0;
+}
+
+.my-home-letter {
+    color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.my-home-line {
+    background-color: white;
+    height: 2px;
+}
+
+.section-two {
+    height: calc(100vh - 70px);
+    font-size: 0;
+}
+
+.section-two h2 { font-size: 24px;}
+
+.section-two p {
+    display: inline-block;
+    width: 80%;
+    padding: 0 20px;
+    border-left: 5px solid black;
+    font-size: 16px;
+    margin-left: 20px;
+    transition: 0.5s;
+    margin-bottom: 10vh;
+}
+
+.section-two p:hover {
+    margin-left: 40px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.st-first-box {
+    background: #a43135;
+    background-image: url('/images/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25vw;
+    width: 20%;
+    height: calc(100vh - 70px);
+    display: inline-block;
+    font-size: 16px;
+}
+
+.st-second-box {
+    background: white;
+    width: 40%;
+    height: calc(100vh - 70px);
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.st-third-box {
+    background-image: url('/images/photo-2.jpg');
+    background-position: center;
+    background-size: 100vh;
+    width: 40%;
+    height: calc(100vh - 70px);
+    display: inline-block;
+    font-size: 12px;
+}
+
+.my-decoration-1 {
+    display: inline-block;
+    background: gray;
+    width: 50px;
+    height: calc(100vh - 125px);
+}
+
+.my-decoration-box {
+    width: 100%;
+}
+
+.my-decoration-2 {
+    display: inline-block;
+    background: white;
+    width: 50%;
+    height: 50px;  
+}
+
+.my-decoration-3 {
+    display: inline-block;
+    background: gray;
+    width: 50%;
+    height: 50px;  
+}
+
+.my-info-prop {
+    background: white;
+    font-size: 0;
+}
+
+.my-personal-info {
+    display: inline-block;
+    width: calc(100vw - 50px);
+    height: calc(100vh - 125px);
+    vertical-align: top;
+}
+
+.my-personal-info img {
+    max-height: 800px;
+}
+
+.my-personal-info h2 {
+    font-size: 120px;
+    margin: 25px 0 0 25px;
+}
+
+.my-personal-boxtext-1 {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.my-personal-boxtext-2 {
+    width: 50px;
+    height: 50px;
+    border: 6px solid black;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.my-personal-text {
+    font-size: 20px;
+    display: inline-block;
+    width: 70%;
+    padding-left: 20px;
+}
+
+.fondoimagen {
+    background: url(../images/imagen2.jpg);
+    height: calc(100vh - 75px);
+}
+
+.box-black {
+    background: gray;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 200px;
+    padding: 40px 20px;
+}
+
+.box-black h2, .box-black p {
+    font-size: 15px;
+}
+
+.circle-black1 {
+    width: 100px;
+    height: 250px;
+    border-top: 10px solid gainsboro;
+    border-bottom: 10px solid rgb(255, 148, 8);
+    border-left: 10px solid rgb(255, 148, 8);
+    border-right: 10px solid rgb(255, 148, 8);
+    border-radius: 50%;
+}
+
+.circle-black2 {
+    width: 100px;
+    height: 250px;
+    border-top: 10px solid gainsboro;
+    border-bottom: 10px solid rgb(0, 98, 255);
+    border-left: 10px solid gainsboro;
+    border-right: 10px solid rgb(0, 98, 255);
+    border-radius: 50%;
+}
+
+.circle-black3 {
+    width: 100px;
+    height: 250px;
+    border-top: 10px solid gainsboro;
+    border-bottom: 10px solid gainsboro;
+    border-left: 10px solid gainsboro;
+    border-right: 10px solid rgb(6, 55, 153);
+    border-radius: 50%;
+}
+
+.big-separator {
+    height: 125px;
+}
+
+.info-general h1,.info-general li {
+    font-size: 40px;
+}
+
+.size-ai-1 {
+    border: 5px solid black;
+    width: 75%;
+}
+
+.size-ai-2 {
+    border: 1px solid black;
+    width: 25%;
+}
+
+.size-ps-1 {
+    border: 5px solid black;
+    width: 25%;
+}
+
+.size-ps-2 {
+    border: 1px solid black;
+    width: 75%;
+}
+
+.size-vs-1 {
+    border: 5px solid black;
+    width: 20%;
+}
+
+.size-vs-2 {
+    border: 1px solid black;
+    width: 80%;
+}
+
+.little-separator {
+    height: 50px;
+}
+
+.my-proyect {
+    font-size: 0;
+}
+
+.my-proyect-1 {
+    background: gray;
+    height: calc(100vh - 75px);
+}
+
+.my-proyect-2 {
+    background: white;
+    height: calc(100vh - 75px);
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
